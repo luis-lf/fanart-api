@@ -1,0 +1,32 @@
+{
+  "name": "fanart-api",
+  "version": "1.0.0",
+  "description": "Simple Nodejs Fanart.tv api client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/supervisor app",
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pending"
+  },
+  "keywords": [
+    "thetvdb",
+    "fanart",
+    "tvshow",
+    "movies"
+  ],
+  "author": {
+    "name": "Luis Sampaio",
+    "email": "sampaio.luis@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.57.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
